@@ -1,4 +1,6 @@
 <h2>投稿ページ</h2>
 
 <%= form_for(@post, url: '/posts') do |f| %>
+<h4>レストラン名</h4>
+    <%= f.text_field :store_name %>
 <% end %>
